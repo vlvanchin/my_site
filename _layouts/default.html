@@ -28,6 +28,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+  {% seo %}
 </head>
 
 <body>
@@ -123,6 +124,9 @@
                         <li>
                             <a href="#interest">Interests</a>
                         </li>
+                        <li class="footer text-right">
+                            Last modified: {% last_modified_at %}
+                        </li>
                     </ul>
                     <p class="hidden copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
@@ -135,7 +139,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
