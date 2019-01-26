@@ -3,5 +3,5 @@ destination: ../vlvanchin.github.io
 url: "https://vlvanchin.github.io"
 plugins:
   - jekyll-seo-tag
-  - jekyll-last-modified-at
+    #  - jekyll-last-modified-at
 
